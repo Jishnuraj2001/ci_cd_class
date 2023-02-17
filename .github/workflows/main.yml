@@ -14,7 +14,7 @@
 name: Github action ofr
 on:
   push: 
-    branches: [master]
+    branches: [main]
   jobs:
     build:
       runs-on: ubuntu-latest
@@ -23,4 +23,5 @@ on:
         - name: Print Hello World
            run: node --version
         - name: Print pwd
+           run: pwd
       
