@@ -86,7 +86,7 @@
 #Define a series of steps inside a job to execute the workflow
 #steps:a sequence of tasks or actions that make up a job
 
-name: Github action 
+name: Github action ofr
 on:
   push:
     branches: [main]
@@ -94,6 +94,6 @@ on:
     build:
       runs-on: ubuntu-latest
       steps:
-        - uses: actions/checkout@v2
-        # - name: Print Hello World
-        - run: echo "Hello World!"
+        - uses: actions/checkout@v3
+        - name: Print Hello World
+           run: echo "Hello World!"
