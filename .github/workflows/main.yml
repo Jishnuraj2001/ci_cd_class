@@ -96,4 +96,4 @@ on:
       steps:
         - uses: actions/checkout@v3
         - name: Print Hello World
-           run: echo "Hello World!"
+           run: node --version
