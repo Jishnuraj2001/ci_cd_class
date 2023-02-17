@@ -22,3 +22,5 @@ on:
         - uses: actions/checkout@v3
         - name: Print Hello World
            run: node --version
+        - name: Print pwd
+      
